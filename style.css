@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.search {
+  width: 40%;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid black;
+}
+.arrayOfColor {
+  position: relative;
+  top: 40%;
+  margin-left: 25rem;
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(10, 60px);
+}
+.arrayOfColor div {
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+}
+.color1 {
+  background: green;
+}
+.color2 {
+  background: red;
+}
+.color3 {
+  background: blue;
+}
+.color4 {
+  background: brown;
+}
+.color5 {
+  background: grey;
+}
+.color6 {
+  background: yellow;
+}
+.color7 {
+  background: pink;
+}
+.color8 {
+  background: orange;
+}
+.color9 {
+  background: purple;
+}
+.color10 {
+  background: black;
+}
